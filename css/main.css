@@ -14,10 +14,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-img {
-  width: 100%;
-}
-
 .hover-box {
   position: relative;
   overflow: hidden;
@@ -44,6 +40,7 @@ img {
 
 .hover-box img {
   filter: grayscale(100%);
+  width: 100%;
   transition: all .2s linear;
 }
 
